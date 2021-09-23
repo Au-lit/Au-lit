@@ -10,7 +10,7 @@ Ok this is useless.
 
 # A C++ like `readme.md`
 ```cpp
-[[nodiscard]] inline constexpr Au_lit{
+[[nodiscard]] inline constexpr auto = au_lit{
   .name = u"Ollivier Roberge",
   .age = rand(),
   .location = u"カナダ",
