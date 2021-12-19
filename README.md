@@ -11,7 +11,7 @@ Ok this is useless.
 # A C++ like `readme.md`
 ```cpp
 using namespace std::chrono_literals;
-[[nodiscard]] inline constexpr auto = au_lit{
+[[maybe_unused]] inline constexpr Person au_lit{
   .name = u"Ollivier Roberge",
   .age = 15y,
   .location = u"カナダ",
