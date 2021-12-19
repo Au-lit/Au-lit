@@ -10,9 +10,10 @@ Ok this is useless.
 
 # A C++ like `readme.md`
 ```cpp
+using namespace std::chrono_literals;
 [[nodiscard]] inline constexpr auto = au_lit{
   .name = u"Ollivier Roberge",
-  .age = rand(),
+  .age = 15y,
   .location = u"カナダ",
   .learning = { /* stuff */ },
   .interests = { /* stuff */ }
@@ -20,7 +21,3 @@ Ok this is useless.
 };
 ```
 ...this is also useless...
-<!---
-Au-lit/Au-lit is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
