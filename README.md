@@ -13,7 +13,7 @@ Ok this is useless.
 using namespace std::chrono_literals;
 [[maybe_unused]] inline constexpr Person au_lit{
   .name = u"Ollivier Roberge",
-  .age = 15y,
+  .age = std::chrono::years{ rand() },
   .location = u"カナダ",
   .learning = { /* stuff */ },
   .interests = { /* stuff */ }
