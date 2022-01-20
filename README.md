@@ -10,14 +10,13 @@ Ok this is useless.
 
 # A C++ like `readme.md`
 ```cpp
-using namespace std::chrono_literals;
-[[maybe_unused]] inline constexpr Person au_lit{
-  .name = u"Ollivier Roberge",
+#include <chrono>
+#include <cstdlib>
+
+[[nodiscard, maybe_unused]] inline constexpr Person au_lit{
+  .name = u8"Ollivier Roberge",
   .age = std::chrono::years{ rand() },
-  .location = u"カナダ",
-  .learning = { /* stuff */ },
-  .interests = { /* stuff */ }
-  .contact_info = { /* stuff */ }
+  .location = u8"カナダ",
 };
 ```
 ...this is also useless...
