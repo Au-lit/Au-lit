@@ -13,10 +13,10 @@ Ok this is useless.
 #include <chrono>
 #include <cstdlib>
 
-[[nodiscard, maybe_unused]] inline constexpr Person au_lit{
+[[nodiscard]] inline constexpr Person au_lit{
   .name = u8"Ollivier Roberge",
   .age = std::chrono::years{ rand() },
-  .location = u8"カナダ",
+  .location = u8"モントリオール、Québec",
 };
 ```
 ...this is also useless...
